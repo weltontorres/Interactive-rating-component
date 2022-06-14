@@ -1,9 +1,11 @@
 * {
 	font-family: 'Overpass', sans-serif;
+	margin: 0;
 }
 
 html {
 	height: 100%;
+
 }
 
 body {
@@ -18,7 +20,7 @@ body {
 }
 #imgstar {
 	width: 15px;
-	background: #282829;
+	background: #1C232D;
 	padding: 15px;
 	border-radius: 30px;
 
@@ -33,22 +35,47 @@ body {
 
 h2 {
 	font-weight: 400;
+	margin-top: 30px;
 }
 
 p {
 	color: hsl(216, 12%, 54%);
+	margin-top: 30px;
+}
+
+#rate {
+	display: flex;
+	justify-content: space-between;
+	width: 400px;
+	margin-top: 30px;
+
+}
+#rate button {
+	margin-right: 0;
+	background-color: #1C232D;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	color:hsl(216, 12%, 54%);
+	border: none;
+	font-size: 15px;
+		
 }
 
 #submitbutton {
 	background-color: hsl(25, 97%, 53%);
-	border: none;
 	color: white;
 	text-transform: uppercase;
-	padding: 10px;
-	width: 300px;
-	border-radius: 30px;
+	padding: 15px;
+	width: 302px;
+	border-radius: 50px;
 	letter-spacing: .2rem;
+	margin-top: 30px;
+	justify-content: center;
+	align-items: center;
 	font-weight: 700;
+	border: none;
+	display: flex;
 }
 
 
