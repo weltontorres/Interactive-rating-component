@@ -12,13 +12,55 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: hsl(216, 12%, 8%);
+	color: white;
 	
 }
 #imgstar {
-	width: 50px;
-}
-.bigcontainer {
-	display: flex;
-	flex-direction: column;
+	width: 15px;
+	background: #282829;
+	padding: 15px;
+	border-radius: 30px;
 
 }
+.bigcontainer {
+ 	flex-direction: column;
+	background-color: #1A1E26;
+	width: 400px;
+	border-radius: 30px;
+	padding: 30px;
+}
+
+h2 {
+	font-weight: 400;
+}
+
+p {
+	color: hsl(216, 12%, 54%);
+}
+
+#submitbutton {
+	background-color: hsl(25, 97%, 53%);
+	border: none;
+	color: white;
+	text-transform: uppercase;
+	padding: 10px;
+	width: 300px;
+	border-radius: 30px;
+	letter-spacing: .2rem;
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
